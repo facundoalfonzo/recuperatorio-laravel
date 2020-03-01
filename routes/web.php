@@ -20,14 +20,14 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-route::get('/movies','MovieController@mostrarmovies' );
+route::get('/Peliculas','MovieController@mostrarmovies' );
 route::get('/detallepelicula1/{id}','MovieController@detallepelicula');
 
-route::get('/genre','GenreController@mostrargenres');
+route::get('/Generos','GenreController@mostrargenres');
 
 
 
-route::get('/actores','ActorController@mostraractor');
+route::get('/Actores','ActorController@mostraractor');
 route::get('/detalleactor/{id}','ActorController@detalleactor');
 
 

@@ -92,7 +92,13 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a><br>
+                    <br> 
+                    <a class="link" href="/Peliculas">Peliculas</a>  
+                    <a class="link" href="/Actores">Actores</a>
+                    <a class="link" href="/Generos">Generos</a>
+                    <br>
+                    <a class="link" href="/agregarActor">Agregar un Actor</a>
                 </div>
             </div>
         </div>

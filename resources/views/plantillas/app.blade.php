@@ -9,9 +9,9 @@
     <nav>
 
       
-      <a class="link" href="/movies">Peliculas</a>  
-      <a class="link" href="/actores">Actores</a>
-      <a class="link" href="/genre">Generos</a>
+      <a class="link" href="/Peliculas">Peliculas</a>  
+      <a class="link" href="/Actores">Actores</a>
+      <a class="link" href="/Generos">Generos</a>
     </nav>
     <div class="contenido">
     @yield('contenido')
