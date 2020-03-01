@@ -40,10 +40,25 @@
 </div>
 
 <div class="">
-  <label for="genre_id">Genero</label><br>
-    <input type="text" name="genre_id" value="">
-  </div>
-   
+  
+  
+   <label for="Generos">Generos</label>
+  <select name="genre_id" id="genre_id">
+  <option value="1">Comedia</option>
+  <option value="2">Terror</option>
+  <option value="3">Drama</option>
+  <option value="4">Accion</option>
+  <option value="5">Ciencia Ficcion</option>
+  <option value="6">Suspenso</option>
+  <option value="7">Animacion</option>
+  <option value="8">Aventuras</option>
+  <option value="9">Documental</option>
+  <option value="10">Infantiles</option>
+  <option value="11">Fantasia</option>
+  <option value="12">Musical</option>
+  
+</select>
+</div>
   <button type="submit" name="buttom">editar</button>
 </form>
 

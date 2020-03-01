@@ -14,17 +14,17 @@
   @csrf
 
 <div class="">
-    <label for="first_name">Nombre</label>
+    <label for="first_name">Nombre</label><br>
     <input type="text" name="first_name">
 </div>
 
 <div class="">
-    <label for="last_name">Apellido</label>
+    <label for="last_name">Apellido</label><br>
     <input type="text" name="last_name">
 </div>
 
 <div class="">
-    <label for="rating">Rating</label>
+    <label for="rating">Rating</label><br>
     <input type="number" name="rating" >
 </div>
 

@@ -14,6 +14,9 @@ class ActorController extends Controller
     }
 
 
+
+    
+
     public function detalleactor($id){
       $actordetalle=Actor::find($id);
 
