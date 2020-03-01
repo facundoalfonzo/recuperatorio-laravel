@@ -5,10 +5,9 @@
 @section('contenido')
 
 
-    <ul>
+    <ol>
       @foreach ($genres as $key => $generos)
-        <li>{{$generos->name}}</a>
-    
+        <li>{{$generos->name}}</li>
       @endforeach
-    </ul>
+    </ol>
 @endsection

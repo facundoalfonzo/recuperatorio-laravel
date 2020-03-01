@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Actor;
 use App\Movie;
+use App\Genre;
 class ActorController extends Controller
 {
     public function mostraractor(){
@@ -19,8 +20,7 @@ class ActorController extends Controller
       return view('detalleactor',compact('actordetalle'));
     }
 
-      
-  
+       
   
 
 public function agregar(Request $datos){
@@ -46,7 +46,7 @@ $mesajes =[
         $nuevoActor->favorite_movie_id = $datos['favorite'];
 
         $nuevoActor->save();
-          return redirect('/actores');
+          return redirect('/Actores');
 
 
 }

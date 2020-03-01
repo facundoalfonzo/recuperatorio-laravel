@@ -19,7 +19,7 @@ class Movie extends Model
 
 
   public function actorMovies(){
-    return $this->HasMay(actor::class,'id');
+    return $this->HasMay(actor::class,'_movie_id');
   }
 
      

@@ -14,6 +14,11 @@ class MovieController extends Controller
 
     }
     
+    public function mostrargenres(){
+      $genres=Genre::all();
+      return view('genres',compact('genres'));
+    }
+
 
       public function detallepelicula($id){
         $peliculadetalle=Movie::find($id);
@@ -59,7 +64,7 @@ class MovieController extends Controller
         $editarMovies->genre_id = $datos['genre_id'];
 
         $editarMovies-> save();
-        return redirect('/movies');
+        return redirect('/Peliculas');
       }
 
 }

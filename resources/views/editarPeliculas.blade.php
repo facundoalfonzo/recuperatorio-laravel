@@ -43,8 +43,7 @@
   <label for="genre_id">Genero</label><br>
     <input type="text" name="genre_id" value="">
   </div>
-  
-
+   
   <button type="submit" name="buttom">editar</button>
 </form>
 
