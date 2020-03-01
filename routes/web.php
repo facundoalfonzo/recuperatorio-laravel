@@ -40,4 +40,4 @@ route::post('/agregarActor','ActorController@agregar');
 route::get('/movies/{id}/editarMovies','MovieController@seleccionarEditar');
 
 
-route::post('/movies/{id}/editarMovies','MovieController@editarMovies');
+route::post('/movies/{id}/editarMovies','MovieController@editar');

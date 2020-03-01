@@ -15,6 +15,8 @@
           
         </ul>
       
+   
+
 
       <a href="/movies/{{$peliculadetalle->id}}/editarMovies">Editar</a>
       @endsection

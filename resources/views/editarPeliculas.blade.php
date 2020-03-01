@@ -17,30 +17,30 @@
   @csrf
 
   <div class="">
-    <label for="">Titulo</label><br>
+    <label for="title">Titulo</label><br>
     <input type="text" name="title" value="">
   </div>
   <div class="">
-    <label for="">Premios</label><br>
+    <label for="awards">Premios</label><br>
     <input type="number" name="awards" value="">
   </div>
 <div class="">
-  <label for="">Rating</label><br>
+  <label for="rating">Rating</label><br>
   <input type="numbre" name="rating" value="">
 </div>
 
 <div class="">
-  <label for="">Fecha de Estreno</label><br>
+  <label for="release_date">Fecha de Estreno</label><br>
   <input type="date" name="release_date" value="">
 </div>
 
 <div class="">
-<label for="">Duracion</label><br>
+<label for="length">Duracion</label><br>
   <input type="number" name="length" value="">
 </div>
 
 <div class="">
-  <label for="">Genero</label><br>
+  <label for="genre_id">Genero</label><br>
     <input type="text" name="genre_id" value="">
   </div>
   

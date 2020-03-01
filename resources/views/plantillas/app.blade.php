@@ -12,7 +12,6 @@
       <a class="link" href="/movies">Peliculas</a>  
       <a class="link" href="/actores">Actores</a>
       <a class="link" href="/genre">Generos</a>
-    
     </nav>
     <div class="contenido">
     @yield('contenido')
@@ -20,6 +19,7 @@
 
     <footer>
       <a class="link" href="/">inicio</a>
+      <a class="link" href="/agregarActor">Agregar un Actor</a>
     </footer>
   </body>
 </html>
