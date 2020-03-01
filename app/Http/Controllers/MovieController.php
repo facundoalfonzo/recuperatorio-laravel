@@ -14,10 +14,7 @@ class MovieController extends Controller
 
     }
     
-    public function mostrargenres(){
-      $genres=Genre::all();
-      return view('genres',compact('genres'));
-    }
+  
 
 
       public function detallepelicula($id){
@@ -48,7 +45,7 @@ class MovieController extends Controller
             'min' =>'El titulo debe tener como minimo 4 caracteres',
             'numeric' =>'El campo :atribute debe ser numeric',
             'date' =>'El campo :atribute debe ser feha',
-            'numeric' =>'El campo :atribute debe ser numeric'
+           
 
           ];
 

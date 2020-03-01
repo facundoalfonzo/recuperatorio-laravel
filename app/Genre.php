@@ -15,9 +15,8 @@ class Genre extends Model
         return $this->BelongsTo(Genre::class,'movies_id');
     }
 
-    public function mostrargene(){
-      return $this->BelongsTo(Genre::class,'genre_id');
-  }
+    
+  
 
     }
 

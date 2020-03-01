@@ -43,7 +43,7 @@ $mesajes =[
         $nuevoActor->first_name = $datos['first_name'];
         $nuevoActor->last_name = $datos['last_name'];
         $nuevoActor->rating = $datos['rating'];
-        $nuevoActor->favorite_movie_id = $datos['favorite'];
+        
 
         $nuevoActor->save();
           return redirect('/Actores');
